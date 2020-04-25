@@ -14,6 +14,8 @@
 		BE0A3892244D249B003D6101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE0A3891244D249B003D6101 /* Assets.xcassets */; };
 		BE0A3895244D249B003D6101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0A3893244D249B003D6101 /* LaunchScreen.storyboard */; };
 		BE0A38A0244D249B003D6101 /* CoolCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0A389F244D249B003D6101 /* CoolCalcTests.swift */; };
+		BE0A38AB244D2F4A003D6101 /* CustomButtonUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0A38AA244D2F4A003D6101 /* CustomButtonUI.swift */; };
+		BE4F04FC244E52C200778BB2 /* Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F04FB244E52C200778BB2 /* Logic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		BE0A389B244D249B003D6101 /* CoolCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoolCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE0A389F244D249B003D6101 /* CoolCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolCalcTests.swift; sourceTree = "<group>"; };
 		BE0A38A1244D249B003D6101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0A38AA244D2F4A003D6101 /* CustomButtonUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonUI.swift; sourceTree = "<group>"; };
+		BE4F04FB244E52C200778BB2 /* Logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +85,9 @@
 			children = (
 				BE0A3888244D2497003D6101 /* AppDelegate.swift */,
 				BE0A388A244D2497003D6101 /* SceneDelegate.swift */,
-				BE0A388C244D2497003D6101 /* ViewController.swift */,
-				BE0A388E244D2497003D6101 /* Main.storyboard */,
+				BEEBF5F8244E3ADE00407878 /* Model */,
+				BEEBF5F5244E3A9000407878 /* Controller */,
+				BEEBF5F9244E3AF000407878 /* View */,
 				BE0A3891244D249B003D6101 /* Assets.xcassets */,
 				BE0A3893244D249B003D6101 /* LaunchScreen.storyboard */,
 				BE0A3896244D249B003D6101 /* Info.plist */,
@@ -97,6 +102,31 @@
 				BE0A38A1244D249B003D6101 /* Info.plist */,
 			);
 			path = CoolCalcTests;
+			sourceTree = "<group>";
+		};
+		BEEBF5F5244E3A9000407878 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE0A388C244D2497003D6101 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BEEBF5F8244E3ADE00407878 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE4F04FB244E52C200778BB2 /* Logic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEEBF5F9244E3AF000407878 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE0A388E244D2497003D6101 /* Main.storyboard */,
+				BE0A38AA244D2F4A003D6101 /* CustomButtonUI.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +230,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE0A38AB244D2F4A003D6101 /* CustomButtonUI.swift in Sources */,
+				BE4F04FC244E52C200778BB2 /* Logic.swift in Sources */,
 				BE0A388D244D2497003D6101 /* ViewController.swift in Sources */,
 				BE0A3889244D2497003D6101 /* AppDelegate.swift in Sources */,
 				BE0A388B244D2497003D6101 /* SceneDelegate.swift in Sources */,
