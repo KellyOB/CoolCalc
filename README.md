@@ -24,3 +24,5 @@ Next Step (Optional)
 * Have a decimal button and support decimal calculations
 
 # Screenshots
+
+<img src = "https://user-images.githubusercontent.com/32715761/99891693-9a590400-2c21-11eb-89e4-97ea44fdf233.png" width="200" hspace="10" /> <img src = "https://user-images.githubusercontent.com/32715761/99891695-a0e77b80-2c21-11eb-8bde-ec6f218fbd1c.png) width="500" hspace="30" />
