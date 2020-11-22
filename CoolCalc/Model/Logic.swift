@@ -10,8 +10,9 @@ import Foundation
 
 struct Logic {
    
-    private var number: Double?
-    private var intermediateCalculation: (firstNumber: Double, operation: String)?
+    var number: Double?
+    var intermediateCalculation: (firstNumber: Double, operation: String)?
+    
     
     mutating func setNumber(_ number:Double) {
         self.number = number
@@ -37,7 +38,7 @@ struct Logic {
         return nil
     }
    
-    private func performCalculation(secondNumber: Double) -> Double? {
+    func performCalculation(secondNumber: Double) -> Double? {
         
         if let firstNumber = intermediateCalculation?.firstNumber,
             let operation = intermediateCalculation?.operation {

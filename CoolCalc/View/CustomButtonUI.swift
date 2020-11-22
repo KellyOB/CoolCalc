@@ -14,6 +14,7 @@ class CustomButtonUI: UIButton {
     override func prepareForInterfaceBuilder() {
         createCustomButton()
     }
+    
     override func awakeFromNib() {
         createCustomButton()
     }
