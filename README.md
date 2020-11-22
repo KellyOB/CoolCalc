@@ -29,5 +29,5 @@ Next Step (Optional)
 
 # Features
 
-Swift Programming Language
-MVC Design Pattern
+* Swift Programming Language
+* MVC Design Pattern
