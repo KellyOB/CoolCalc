@@ -1,6 +1,6 @@
 # CoolCalc
 
-Week 4 Assignment for Devslopes Academy
+Week 4 Project for Devslopes Academy
 
 Build your very own calculator.  This is a truly functional app that you could even upload to the App Store.
 
